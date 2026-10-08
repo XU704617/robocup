@@ -1,10 +1,10 @@
 # RoboCup 新手手册
 
-面向准备了解和参加 RoboCup 人形机器人足球比赛的新人。其他组别在概览中介绍；赛事规则、报名要求和时间以对应届次的官方公告为准。
+面向准备了解和参加 RoboCup 人形机器人足球比赛的新人。RoboCup 2026 起，原 Humanoid League 与 Standard Platform League 合并为 Humanoid Soccer League（HSL）；旧材料仍有学习价值，但阅读时要核对年份和组别。[来源：HSL 官方网站](https://hsl.robocup.org/)。
 
 ## 从这里开始
 
-1. [了解 RoboCup 与手册范围](docs/introduction.md)
+1. [了解 RoboCup 与 HSL](docs/introduction.md)
 2. [按新人路线开始学习](docs/getting-started.md)
 3. [完成第一次运行](docs/first-run.md)
 4. [了解参赛流程](docs/participation.md)
@@ -21,4 +21,4 @@
 | 各届赛事资料 | [赛事目录](events/README.md) |
 | 补充和维护手册 | [贡献指南](CONTRIBUTING.md) |
 
-本手册正在建设。未核实的条目会明确标记，欢迎按贡献指南补充来源和核实日期。
+资料核实日期：2026-10-08。赛事页保存历史届次的具体信息；准备下一届比赛时，请以当届官方公告和规则发布版本为准。欢迎按[贡献指南](CONTRIBUTING.md)更新资料。
