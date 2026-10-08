@@ -1,16 +1,24 @@
-# 人形机器人队伍
+# 国内外 RoboCup 足球队伍
 
-[返回目录](../README.md)
+[返回目录](../README.md) · 核实日期：2026-10-08
 
-以下是按研究方向选取的 **2026 HSL 队伍示例**，不是全部队伍名单。组别、资格状态、TDP、硬件和软件材料请查看[官方合格队伍页](https://hsl.robocup.org/qualified-teams/)；比赛名次查看[官方结果](https://hsl.robocup.org/results-2026/)。核实日期：**2026-10-08**。
+按年份和组别找队伍，比在一张总表里找更准确。这里收录 2025—2026 年几个足球组的官方名单；每张表保留原页的资格和退出状态。学校、技术和赛绩放在下面的队伍文章中。
 
-| 队伍 | 2026 组别与可学习内容 | 证据入口 |
+| 范围 | 名单入口 | 收录口径 |
 | --- | --- | --- |
-| **BigHeroX（湖南大学）** | Large；TDP 描述从轮式足球转向人形足球，使用 Z4 平台，重点涉及感知、双足控制、通信与决策。TDP 是队伍自述的计划与技术介绍，不等于独立性能验证 | [队伍名单](https://hsl.robocup.org/qualified-teams/)、[2026 TDP](https://hsl.robocup.org/wp-content/uploads/2026/03/BigHeroX-tdp-697b35e3beeb6.pdf) |
-| **Hamburg Bit-Bots** | Small；适合学习开放的 ROS 2 软件栈和模块组织 | [队伍名单](https://hsl.robocup.org/qualified-teams/)、[公开仓库](https://github.com/bit-bots/bitbots_main) |
-| **B-Human** | Middle；可结合 TDP 和 GameController 资料学习比赛系统 | [队伍名单与 TDP](https://hsl.robocup.org/qualified-teams/)、[比赛结果](https://hsl.robocup.org/results-2026/) |
-| **Berlin United（柏林洪堡大学）** | Small、Middle；2026 TDP 涵盖决策、感知、运动和数据记录等方向 | [队伍名单](https://hsl.robocup.org/qualified-teams/)、[2026 TDP](https://hsl.robocup.org/wp-content/uploads/2026/03/Berlin_United-tdp-69802e227011f.pdf) |
-| **Rhoban** | Middle；可比较其平台规格和人形运动研究 | [队伍名单](https://hsl.robocup.org/qualified-teams/)、[机器人规格](https://hsl.robocup.org/wp-content/uploads/2026/03/mid_Rhoban-specs-697a0ec7494ce.pdf) |
-| **Tsinghua Hephaestus（清华大学）** | Large；可结合 TDP 阅读大尺寸组的人形足球方案 | [队伍名单](https://hsl.robocup.org/qualified-teams/)、[2026 TDP](https://hsl.robocup.org/wp-content/uploads/2026/03/Tsinghua_Hephaestus-tdp-6977354e3c886.pdf) |
+| HSL 2026 | [Small / Middle / Large 完整名单](team-directory/hsl-2026.md) | 官方资格页 75 条“队伍 × 组别”记录，含 TDP、硬件、软件资料 |
+| SSL 2026 | [Division A / B 完整名单](team-directory/ssl-2026.md) | 官方资格页 28 支队伍，含退出和未获资格者 |
+| SSL 2025 | [Division A / B 完整名单](team-directory/ssl-2025.md) | 官方资格页 27 支队伍，保留当届状态与 TDP |
+| MSL | [官方队伍名录及 2026 资格](team-directory/msl.md) | 官网 27 条历史/现有混合名录，另列 2026 年 13 支申请队伍 |
+| 旧 Humanoid League 2025 | [KidSize / AdultSize 完整名单](team-directory/hl-2025.md) | 合并前官方资格页 23 条“队伍 × 组别”记录 |
+| 旧 Standard Platform League 2025 | [Champions Cup / Challenge Shield 名单](team-directory/spl-2025.md) | 合并前官方资格页 18 支队伍，含 6 支后来退出的队伍 |
 
-阅读顺序建议是“官方队伍页 → TDP → 硬件规格 → 软件材料/公开仓库 → 结果”。TDP 中的研究目标与计划应按原文理解；开源仓库的代码版本也可能晚于或早于比赛版本。
+HSL 的 Small、Middle、Large 是人形足球的尺寸组。SSL（小型组）和 MSL（中型组）是另外两个足球联赛。[组别说明](../docs/introduction.md) · [RCAP 地区赛事](https://robocupap.org/)
+
+## 队伍文章
+
+- [人形足球队伍档案](team-profiles/hsl.md)：国内外 HSL 队伍，以及公开报道中的 RCAP 队伍。
+- [SSL / MSL 队伍档案](team-profiles/ssl-msl.md)：RobôCIn、Warthog Robotics、TIGERs Mannheim、ZJUNlict、Tech United Eindhoven、LAR@MSL 等。
+- [旧 SPL 队伍档案](team-profiles/spl-legacy.md)：rUNSWift、Dutch Nao Team、Berlin United、RoboEireann 等学校队伍。
+
+名录里只给出国家的队伍，其学校信息要再查当届 TDP 或学校官网。TDP 记录队伍自己的设计，名次则查当届结果页；这两个来源回答的是不同问题。本目录还会继续补充其他年份和地区赛。
